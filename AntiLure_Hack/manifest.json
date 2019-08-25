@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "AntiLure",
+  "description": "This extension tracks your overall spendings.",
+  "version": "1.0",
+  "icons": {
+    "128": "logo128.png",
+    "48": "logo48.png",
+    "16": "logo16.png"
+  },
+  "browser_action": {
+    "default_icon": "logo16.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["axios.js", "eventPage.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "contextMenus",
+    "tabs",
+    "activeTab"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

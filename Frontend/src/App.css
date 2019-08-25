@@ -1,0 +1,171 @@
+.container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+.background{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.whiteSpace{
+  top:35%;
+  left:35%;
+  border-radius:25px;
+  background-color: white;
+  height: 40%;
+  width: 30%;
+  position: absolute;
+}
+.email{
+  top:35%;
+  left:4%;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+.emailBox{
+  left:20%;
+  position:absolute;
+  height :20%;
+  width: 60%;
+  padding: 19px ;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.5px solid #ccc;
+  box-sizing: border-box;
+}
+.password{
+  top:55%;
+  left:4%;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+.passwordBox{
+  left:20%;
+  position:absolute;
+  height :20%;
+  width: 60%;
+  padding: 19px ;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.5px solid #ccc;
+  box-sizing: border-box;
+}
+.loginButton{
+height: 12%;
+top: 80%;
+position: relative;
+width: 12%;
+background-color:#1E90FF;
+border              : none;
+border-radius:5px;
+cursor              : pointer;
+left                : 80%;
+}
+.signIn{
+  top:10%;
+  left:15%;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  font-family: "Verdana";
+  font-weight: bold;
+  font-size           : calc(.8vw + .8vh + .4vmin);
+}
+.tocont{
+  top:20%;
+  left:15%;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  font-family: "Verdana";
+  font-size           : calc(.4vw + .4vh + .2vmin);
+}
+.header{
+  background-color:#1E90FF;
+  height:20%;
+  width: 100%;
+  position: relative;
+}
+.logo{
+  height:20%;
+  width: 20%;
+  left:8%;
+  position: relative;
+}
+.logoLogin{
+  top:10%;
+  height:20%;
+  width: 40%;
+  left:30%;
+  position: absolute;
+}
+.rest{
+  background-color:lightgray;
+  top:200%;
+  height: 100%;
+  width: 80%;
+  left: 10%;
+  position: absolute;
+}
+.pprruueebbaa{
+  height:   350%;
+  width: 90%;
+  position: relative;
+  top               : 180%;
+  columns: 2;
+  left: 6%;
+  list-style-type: none;
+  min-height: 0;
+  overflow: scroll;
+}
+.ulllll{
+  margin:auto;
+  width: 80%;
+  
+}
+.listaActividades{
+  display: inline-flex;
+  position :relative;
+  padding-bottom: 30px;
+  width: 100%;
+  height:   100%;
+
+}
+.logoutB{
+  top:-20%;
+  width: 8%;
+  height: 60%;
+  left:55%;
+  position: relative;
+  border-radius:5px;
+}
+.sideBarImageActive{
+position: relative;
+left :20%;
+font-size           : calc(.9vw + .9vh + .45vmin);
+color:red;
+}
+.sideBarImage{
+position: relative;
+left :20%;
+font-size           : calc(.9vw + .9vh + .45vmin);
+}
+.sideBarImageActive2{
+  position: relative;
+  left :35%;
+  font-size           : calc(.9vw + .9vh + .45vmin);
+  color:red;
+}
+.sideBarImage2{
+  position: relative;
+  left :35%;
+  font-size           : calc(.9vw + .9vh + .45vmin);
+}
+.jc{
+  width: 50%;
+
+}
